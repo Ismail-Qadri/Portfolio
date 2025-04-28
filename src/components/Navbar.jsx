@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa'
+import { FaBars, FaTimes, FaGithub, FaLinkedin, FaWhatsapp } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import { CgFileDocument } from 'react-icons/cg'
 import { Link } from 'react-scroll'
@@ -20,14 +20,15 @@ function Navbar() {
                 <li>
                     <Link to='home' smooth={true} duration={1000}>Home</Link>
                 </li>
-                <li>
-                    <Link to='about' smooth={true} duration={1000}>About</Link>
-                </li>
+                
                 <li>
                     <Link to='skills' smooth={true} duration={1000}>Skills</Link>
                 </li>
                 <li>
                     <Link to='projects' smooth={true} duration={1000}>Projects</Link>
+                </li>
+                <li>
+                    <Link to='testimonial' smooth={true} duration={1000}>Testimonial</Link>
                 </li>
                 <li>
                     <Link to='contact' smooth={true} duration={1000}>Contact</Link>
@@ -45,15 +46,16 @@ function Navbar() {
                 <li className='py-6 text-4xl'>
                     <Link to='home' smooth={true} duration={1000} onClick={handleClick}>Home</Link>
                 </li>
-                <li className='py-6 text-4xl'>
-                    <Link to='about' smooth={true} duration={1000} onClick={handleClick}>About</Link>
-                </li>
+               
                 <li className='py-6 text-4xl'>
                     <Link to='skills' smooth={true} duration={1000} onClick={handleClick}>Skills</Link>
                 </li>
                 <li className='py-6 text-4xl'>
                     <Link to='projects' smooth={true} duration={1000} onClick={handleClick}>Projects</Link>
                 </li>
+                <li className='py-6 text-4xl'>
+                    <Link to='testimonial' smooth={true} duration={1000}>Testimonial</Link>
+                </li >
                 <li className='py-6 text-4xl' >
                     <Link to='contact' smooth={true} duration={1000} onClick={handleClick}>Contact</Link>
                 </li>
@@ -77,10 +79,10 @@ function Navbar() {
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between ml-[-100px] hover:ml-[-10px] duration-500 font-bold'>
-                        <button className='flex justify-between items-center w-full text-gray-300'>
-                            Resume <CgFileDocument size={30} />
-                        </button>
-                    </li>
+                                <a href="https://wa.me/9870228169" target="_blank" rel="noreferrer" className='text-white flex justify-between items-center w-full text-gray-300'>
+                                   WhatsApp <FaWhatsapp size={30} />
+                                </a>
+                            </li>
                 </ul>
             </div>
         </div>

@@ -1,19 +1,48 @@
-import React from 'react'
+import React from 'react';
 
 function Contact() {
   return (
-    <div className='w-full h-screen bg-[#040c16]  flex justify-center md:items-center p-4 ' id='contact' name='contact'>
-      <form action="https://getform.io/f/6b876ff1-1a0f-4f32-aa89-5af66e32a744" method='POST' className='flex flex-col w-full max-w-[600px]'>
-        <div className='pb-8 pt-12 mt-12'>
-          <p className='text-white font-bold text-4xl border-b-4 inline border-blue-400'>Contact</p>
+    <div className="w-full h-screen bg-white flex justify-center items-center p-6" id="contact" name="contact">
+      <form
+        action="https://getform.io/f/bdrnjvlb"
+        method="POST"
+        className="w-full max-w-lg bg-white shadow-xl rounded-xl p-8"
+      >
+        <div className="text-center mb-10">
+          <p className="text-gray-900 font-semibold text-3xl border-b-4 inline border-indigo-600 pb-2">
+            Contact
+          </p>
         </div>
-        <input type="text" className='bg-[#ccd6f6] p-2' placeholder='Name' name='name' />
-        <input type="email" className='bg-[#ccd6f6] my-4 p-2' placeholder='Email' name='email' />
-        <textarea className='bg-[#ccd6f6] p-2' name="message" rows="10" placeholder='Message' ></textarea>
-        <button className='text-white border-2 hover:bg-blue-500 hover:border-blue-500 py-2 px-5 my-8 mx-auto flex items-center rounded-lg hover:shadow-2xl font-bold'>Submit</button>
+        <input
+          type="text"
+          className="w-full p-4 mb-4 bg-gray-50 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500"
+          placeholder="Your Name"
+          name="name"
+        />
+        <input
+          type="email"
+          className="w-full p-4 mb-4 bg-gray-50 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500"
+          placeholder="Your Email"
+          name="email"
+        />
+        <textarea
+          className="w-full p-4 mb-6 bg-gray-50 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500"
+          name="message"
+          rows="6"
+          placeholder="Your Message"
+        ></textarea>
+        <button
+          type="submit"
+          className="w-full bg-gradient-to-l from-[#1595b6] to-[rgba(31,38,103,0.9)] text-white py-3 px-6 rounded-lg transition duration-300 font-semibold"
+        >
+          Send Message
+        </button>
       </form>
     </div>
-  )
+  );
 }
 
-export default Contact
+export default Contact;
+
+        // <button className="text-white bg-gradient-to-l from-[#1595b6] to-[rgba(31,38,103,0.9)] border-2 py-3 px-6 my-4 mx-auto flex items-center rounded-lg font-bold">
+        
