@@ -37,7 +37,7 @@ const projects = [
       "Developed a Netflix clone with GPT-powered search, Firebase authentication, React, Redux Toolkit, Tailwind CSS, and TMDB API for a scalable and responsive user experience.",
     image: netflixgpt,
     techStack: ["react.js", "tailwind", "javascript"],
-    link: "https://680f7d7450e61313a62459ec--netfliiix-gpt.netlify.app/",
+    link: "https://netfliiix-gpt.netlify.app/",
     color: "#47afa1",
     type: "(Movie Streaming Platform with AI-Powered Search)",
   },
