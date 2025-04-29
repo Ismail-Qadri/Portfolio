@@ -41,17 +41,17 @@ const projects = [
     color: "#47afa1",
     type: "(Movie Streaming Platform with AI-Powered Search)",
   },
-  {
-    id: 4,
-    name: "Hotel Booking App",
-    description:
-      "Developed a hotel booking app using React, allowing users to search for hotels, view details, and make reservations. The app features a user-friendly interface, real-time availability checks, and booking management.",
-    image: quickstay,
-    techStack: ["react.js", "tailwind", "javascript"],
-    link: "https://quickstay-hotelbooking.netlify.app/",
-    color: "#ff5553",
-    type: "(Hotel Reservation System)",
-  },
+  // {
+  //   id: 4,
+  //   name: "Hotel Booking App",
+  //   description:
+  //     "Developed a hotel booking app using React, allowing users to search for hotels, view details, and make reservations. The app features a user-friendly interface, real-time availability checks, and booking management.",
+  //   image: quickstay,
+  //   techStack: ["react.js", "tailwind", "javascript"],
+  //   link: "https://quickstay-hotelbooking.netlify.app/",
+  //   color: "#ff5553",
+  //   type: "(Hotel Reservation System)",
+  // },
   {
     id: 5,
     name: "Personal Finance Tracker ",
