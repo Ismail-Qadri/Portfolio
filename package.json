@@ -3,13 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "description": "This is my personal portfolio  which features some of my github projects as well as my resume and technical skills.",
-  "homepage": "https://github.com/sreeshilck/portfolio-react#readme",
-  "bugs": {
-    "url": "https://github.com/sreeshilck/portfolio-react/issues"
-  },
+  "homepage": "https://github.com/Ismail-Qadri/Portfolio#readme",
+  
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sreeshilck/portfolio-react.git"
+    "url": "https://github.com/Ismail-Qadri/Portfolio.git"
   },
   "license": "ISC",
   "author": "",
